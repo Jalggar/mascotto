@@ -1,0 +1,43 @@
+.page-head{
+	width: fit-content;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:  #058888;
+    line-height: 28px;
+    font-weight: 900;
+}
+
+.page-head h1 {
+    color:  #058888;
+    font-size:  2rem;
+    line-height: 28px;
+    display: none;
+}
+h1 {
+    color:  #058888;
+    font-size:  2rem;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.archive.woocommerce-page .page-title {
+	display: inherit;
+     color:  #058888;
+     font-size:  2rem;
+    line-height: 28px;
+    float: left;
+}
+
+textarea{
+	height: 100px;
+}
+
+ input:focus, input[type="submit"]:focus, textarea:focus{
+	outline:none;
+	border-bottom: 1px solid  #058888;
+}
+
+.breadcrumb-trail.breadcrumbs{
+	width: 80%;
+}

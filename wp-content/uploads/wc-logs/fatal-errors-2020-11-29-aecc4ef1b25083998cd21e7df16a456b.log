@@ -1,0 +1,18 @@
+2020-11-29T08:42:53+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/jorge2/we...')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): WPLessGarbagecollector->clean()
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#5 /home/jorge2/web/jorge2.ima en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php en la línea 47
+
+2020-11-29T17:23:35+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/jorge2/we...')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): WPLessGarbagecollector->clean()
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#5 /home/jorge2/web/jorge2.ima en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php en la línea 47
+

@@ -1,0 +1,64 @@
+2020-12-07T09:25:56+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 165
+
+2020-12-07T09:25:56+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 165
+
+2020-12-07T09:27:26+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 165
+
+2020-12-07T09:27:26+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 165
+
+2020-12-07T09:28:24+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 165
+
+2020-12-07T09:28:54+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 155
+
+2020-12-07T09:28:54+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 155
+
+2020-12-07T09:30:23+00:00 CRITICAL Uncaught Error: Call to undefined function foundryus_dinamic_load_resources() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:128
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): less_styles('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(13): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#8 {main}
+  thr en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 128
+
+2020-12-07T09:30:23+00:00 CRITICAL Uncaught Error: Call to undefined function foundryus_dinamic_load_resources() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:128
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): less_styles('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-cron.php(44): require_once('/home/jorge2/we...')
+#7 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 128
+
+2020-12-07T09:30:23+00:00 CRITICAL Uncaught Error: Call to undefined function foundryus_dinamic_load_resources() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:128
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): less_styles('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(13): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#8 {main}
+  thr en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 128
+
+2020-12-07T09:30:26+00:00 CRITICAL Uncaught Error: Call to undefined function foundryus_dinamic_load_resources() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:128
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): less_styles('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jorge2/we...')
+#7 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 128
+

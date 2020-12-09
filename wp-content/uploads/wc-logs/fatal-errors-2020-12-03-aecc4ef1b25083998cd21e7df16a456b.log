@@ -1,0 +1,56 @@
+2020-12-03T09:55:39+00:00 CRITICAL Uncaught Error: Call to undefined function archive_title() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/top-store/inc/admin-function.php:229
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/top-store/woocommerce.php(30): top_store_get_page_title()
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/template-loader.php(106): include('/home/jorge2/we...')
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(19): require_once('/home/jorge2/we...')
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#4 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/top-store/inc/admin-function.php en la línea 229
+
+2020-12-03T10:08:58+00:00 CRITICAL Uncaught Error: Call to undefined function title() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/inc/admin-function.php:229
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/top-store/woocommerce.php(30): top_store_get_page_title()
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/template-loader.php(106): include('/home/jorge2/we...')
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(19): require_once('/home/jorge2/we...')
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#4 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/inc/admin-function.php en la línea 229
+
+2020-12-03T16:37:35+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:27
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(514): include()
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin.php(34): require_once('/home/jorge2/we...')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/post.php(12): require_once('/home/jorge2/we...')
+#5 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 27
+
+2020-12-03T16:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:27
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(514): include()
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jorge2/we...')
+#4 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 27
+
+2020-12-03T16:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:27
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(514): include()
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(13): require_once('/home/jorge2/we...')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#5 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 27
+
+2020-12-03T17:22:54+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/jorge2/we...')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): WPLessGarbagecollector->clean()
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#5 /home/jorge2/web/jorge2.ima en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php en la línea 47
+

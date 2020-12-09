@@ -1,0 +1,84 @@
+2020-12-04T09:55:42+00:00 CRITICAL syntax error, unexpected ')', expecting ']' en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 54
+
+2020-12-04T09:55:43+00:00 CRITICAL syntax error, unexpected ')', expecting ']' en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 54
+
+2020-12-04T09:55:44+00:00 CRITICAL syntax error, unexpected ')', expecting ']' en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 54
+
+2020-12-04T09:55:44+00:00 CRITICAL syntax error, unexpected ')', expecting ']' en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 54
+
+2020-12-04T10:02:45+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jorge2/we...')
+#7 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+
+2020-12-04T10:02:46+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin.php(34): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/post.php(12): require_once('/home/jorge2/we...')
+#8 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+
+2020-12-04T10:02:46+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin-ajax.php(22): require_once('/home/jorge2/we...')
+#7 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+
+2020-12-04T10:02:46+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(13): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#8 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+
+2020-12-04T10:02:58+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/admin.php(34): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-admin/post.php(12): require_once('/home/jorge2/we...')
+#8 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+
+2020-12-04T10:02:59+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php:66
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(287): custom_meta_boxes('')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-settings.php(546): do_action('init')
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-config.php(81): require_once('/home/jorge2/we...')
+#5 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-load.php(37): require_once('/home/jorge2/we...')
+#6 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-blog-header.php(13): require_once('/home/jorge2/we...')
+#7 /home/jorge2/web/jorge2.imaisd.es/public_html/index.php(17): require('/home/jorge2/we...')
+#8 {main}
+  thrown en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 66
+

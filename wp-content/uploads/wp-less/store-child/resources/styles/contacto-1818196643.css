@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 100vw;
+  }
+  .wpcf7-form-control.wpcf7-submit {
+    width: 100%;
+    background-color: #058888;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wpcf7-form-control.wpcf7-submit {
+    background-color: #058888;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    float: right;
+  }
+}
+.wpcf7-form-control.wpcf7-submit {
+  cursor: pointer;
+}
+#sidebar-secondary {
+  display: none;
+}
+input[type="text"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="text"]:focus {
+  border: none;
+}
+input[type="text"]::placeholder {
+  color: #98B6B6;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+input[type="email"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="email"]:focus {
+  border: none;
+}
+input[type="email"]::placeholder {
+  color: #98B6B6;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+input[type="url"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="url"]:focus {
+  border: none;
+}
+textarea {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+textarea:focus {
+  border: none;
+}
+textarea::placeholder {
+  color: #98B6B6;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+input[type="password"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="password"]:focus {
+  border: none;
+}
+input[type="tel"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="tel"]:focus {
+  border: none;
+}
+input[type="tel"]::placeholder {
+  color: #98B6B6;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+input[type="search"] {
+  background-color: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 6px;
+}
+input[type="search"]:focus {
+  border: none;
+}
+label {
+  font-size: 1.2rem;
+  color: #058888;
+  font-weight: 900;
+  display: none;
+}

@@ -1,0 +1,204 @@
+
+@media screen and (max-width: 1024px){
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    	width: 100%;
+	}
+	.menu-toggle .menu-btn span{
+		display: none;
+	}
+	.below-header-bar {
+		display: flex;
+		align-items: left;
+		padding: 10px;
+	}
+
+	.below-header-bar .below-header-col1 nav .menu-toggle .menu-btn .btn{
+		position: absolute;
+		left: 5px;
+		top: 4px;
+	}
+
+	.below-header-bar .below-header-col1 nav .menu-toggle .menu-btn .btn span.icon-bar{
+		background-color: /*#06a89d*/#fff;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.below-header.mhdrfour .below-header-col1 {
+		width: 100%;
+		justify-content: flex-start;
+		margin: 5px 0;
+	}
+	.menu-toggle .menu-btn span{
+		display: none;
+	}
+
+	.below-header-bar {
+		display: flex;
+		align-items: center;
+		position: absolute;
+		top: -49px;
+		color: white;
+	}
+
+	.below-header-bar .below-header-col1 nav .menu-toggle .menu-btn .btn span.icon-bar{
+		background-color: #fff;
+	}
+
+	.below-header::before{
+		background-color: transparent;
+	}
+
+	#search-box form {
+		width: 75%;
+		float: right;
+	}
+
+	body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category a img{
+		width: 80%;
+		margin: auto;
+	}
+
+	
+	
+}
+
+body .content-wrap-home .container{
+	max-width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+body .content-wrap-home .container .main-area{
+	margin-top: 0px;
+}
+
+body .content-wrap-home .container #primary{
+	width: 100%;
+	margin: 0px;
+}
+
+
+body .content-wrap-home .container #primary .primary-content-wrap .page-head{
+	display:none;
+}
+
+.below-header .toggle-cat-wrap{
+	display: none;
+}
+
+#post-134{
+	margin: 0px;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap{
+	padding: 0px;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover{ 
+	padding: 30px;
+	height: 560px;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content h2{ 
+	margin: 30px;
+}
+
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 {
+	margin: auto;
+	width: fit-content;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4{
+	margin: auto;
+	width: fit-content;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category{
+	padding:10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+} 
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category a h2{
+	text-transform: uppercase;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category  a mark{
+	display: none;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category a h2{
+	transition: 1s;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category a img{
+	border-radius: 200px;
+}
+
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .woocommerce.columns-4 .products.columns-4 .product-category:hover  a img{
+	box-shadow: 0px 0px 8px 8px rgba(6, 168, 157, 0.2);
+}
+
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover .wp-block-cover__inner-container .has-text-align-center{
+	margin-top: 360px;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover .wp-block-cover__inner-container .wp-block-button{
+	margin-top: 15px;
+	
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover .wp-block-cover__inner-container .wp-block-button a{
+	margin-top: 15px;
+	background: #058888;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover .wp-block-cover__inner-container .wp-block-button a:hover{
+	
+	background: #057070;
+}
+
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid {
+	margin: auto;
+	width: 80%;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product{
+	
+	transition: 0.5s;
+}
+	
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product:hover{
+	box-shadow: 0px 0px 7px 7px #E4EBEA;
+
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product .wp-block-button{
+
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product .wp-block-button a{
+	background-color: #058888;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product:hover .wp-block-button a{
+	background-color: #057070;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wc-block-grid .wc-block-grid__product{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+body .content-wrap-home .container #primary .primary-content-wrap .thunk-content-wrap #post-134 .entry-content .wp-block-cover{
+	background-image: unset;
+	background-image: url("http://jorge2.imaisd.es/wp-content/uploads/2020/12/group-portrait-of-adorable-puppies-scaled.jpg");
+}

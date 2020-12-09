@@ -1,0 +1,36 @@
+body:not(.wp-admin) footer {
+  background-color: #058888;
+}
+body:not(.wp-admin) .widget-footer {
+  background-color: #058888;
+}
+body:not(.wp-admin) .widget-footer:before {
+  background-color: #058888;
+  color: #ffffff;
+}
+body:not(.wp-admin) .top-footer {
+  border: none;
+}
+body:not(.wp-admin) .top-footer:before {
+  background-color: #058888;
+}
+body:not(.wp-admin) .top-footer .content-html {
+  color: #ffffff;
+}
+body:not(.wp-admin) .below-footer {
+  border-top: none;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+body:not(.wp-admin) .below-footer:before {
+  background-color: #058888;
+}
+body:not(.wp-admin) .below-footer i {
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  body:not(.wp-admin) .below-footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}

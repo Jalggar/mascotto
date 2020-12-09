@@ -1,0 +1,62 @@
+
+@media screen and (max-width: 768px){
+    iframe{
+        width: 100vw;
+    }
+
+    .wpcf7-form-control.wpcf7-submit{
+        width: 100%;
+        background-color: #058888;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        height: 48px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 768px){
+    .wpcf7-form-control.wpcf7-submit {
+        background-color: #058888;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 150px;
+        float: right;
+    }   
+
+}
+ .wpcf7-form-control.wpcf7-submit{
+    cursor: pointer;
+}
+#sidebar-secondary{
+    display: none;
+}
+input[type="text"], input[type="email"], input[type="url"], textarea, input[type="password"], input[type="tel"], input[type="search"]{
+    background-color: #fff;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 6px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, textarea:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="search"]:focus{
+    border: none;
+}
+
+label{
+    font-size: 1.2rem;
+    color: #058888;
+    font-weight: 900;
+}
+
+
+label{
+    display: none;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder,  textarea::placeholder, input[type="tel"]::placeholder{
+    color: #98B6B6;
+    text-transform: uppercase;
+    font-weight: 300;
+}

@@ -1,0 +1,20 @@
+/* main color #06a89d
+ #058888
+
+ compl: #A80611;
+
+#A80662
+  */
+
+
+@import url("menu.css");
+@import url("home.css");
+@import url("page.css");
+@import url("tienda.css");
+@import url("footer.css");
+@import url("contacto.css");
+@import url("texts.css");
+@import url("checkout.css");
+@import url("conocenos.css");
+@import url("micuenta.css");
+@import url("login.css");

@@ -1,0 +1,266 @@
+@media screen and (min-width: 768px) {
+
+  .top-footer-col3 {
+    width: 300px;
+  }
+
+  .widget-title {
+    color: white;
+    text-align: left;
+  }
+
+	.top-footer-col2, .top-footer-col3 {
+	  height: 300px;
+	}
+
+  .top-footer-col3 .menu-legal-container {
+    text-align: left;
+  }
+
+  .top-footer-col3  ul {
+    width: fit-content;
+    margin: 0;
+  }
+
+  #nav_menu-4 {
+  	margin: auto;
+    width: fit-content;
+  }
+
+  .top-footer-col3  ul li {
+    display: block;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .top-footer-col3  ul li a {
+    color: white;
+  }
+
+	.widget-title {
+    color: white;
+    padding-top: 40px;
+    text-align: left;
+  }
+
+  .footer-widget-2 {
+    width: fit-content;
+	/*  margin: auto; */;
+  }
+
+  #custom_html-2 {
+    width: fit-content;
+    margin: auto;
+    
+  }
+
+  .footer-widget-2 ul {
+    color: #fff;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+
+  .footer-widget-2 ul li {
+    list-style: none;
+    text-align: justify;
+    line-height: 28px;
+  }
+
+  .footer-widget-2 ul li i {
+    padding-right: 7px;
+  }
+
+  .footer-widget-2 ul li a {
+  	color: #fff;
+  }
+
+  .social-icon {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .social-icon li{
+  	margin:0px 6px;
+  	transition: .4s;
+  }
+  .social-icon li a i {
+    font-size: 2rem;
+  }
+
+   .social-icon li:hover a i{
+   	color: #06a89d;
+   	text-shadow:  2px 2px  11px #06a89d;
+   }
+
+  .icono-footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .below-footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .top-footer .top-footer-col2 {
+    width: 100%;
+  }
+
+  .widget-title {
+    border-bottom: 1px solid #fff;
+
+    text-transform: uppercase;
+  }
+
+  .widget_text.widget.widget_custom_html .widget-title {
+    color: white;
+    padding-top: 40px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .footer-widget-2 {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .footer-widget-2 ul {
+    color: #fff;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+
+  .footer-widget-2 ul li {
+    color: white;
+    list-style: none;
+    text-align: left;
+    text-transform: initial;
+  }
+
+  .footer-widget-2 ul li i {
+    padding-right: 7px;
+  }
+
+  .footer-widget-2 ul li a {
+  	color: #fff;
+  }
+
+  #custom_html-2, #nav_menu-4 {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .widget.widget_nav_menu .widget-title {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .icono-footer {
+    display: inherit;
+    text-align: right;
+    border-bottom: 1px solid #fff;
+  }
+
+  .icono-footer i {
+    color: #fff;
+    padding-right: 16px;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    max-height: 20px;
+  }
+
+  .top-footer-col3  ul{
+  	margin-left: 0;
+  	padding-top: 15px;
+  }
+
+  .top-footer-col3  ul li {
+    display: block;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .top-footer-col3  ul li a {
+  	text-transform: uppercase;
+    color: white;
+  }
+
+
+  .active {
+    max-height: 80px;
+  }
+
+  .menu-legal-container, .textwidget.custom-html-widget {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .content-social {
+  	margin: auto;
+  	width: fit-content;
+  }
+	.social-icon li{
+		margin-left: 14px;
+	} 
+
+  .social-icon li a i{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+footer {
+  background-color: #058888;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.widget-footer {
+  background-color: #058888;
+}
+
+.widget-footer:before {
+  background-color: #058888;
+  color: #fff;
+}
+
+.top-footer {
+  border: none;
+}
+
+.top-footer:before {
+  background-color: #058888;
+}
+
+.top-footer .content-html {
+  color: #fff;
+}
+
+.below-footer {
+  border-top: none;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.below-footer:before {
+  background-color: #058888;
+}
+
+.below-footer i {
+  color: white;
+}

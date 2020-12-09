@@ -1,0 +1,75 @@
+@media screen and (max-width: 1025px) {
+  .woocommerce ul.products[class*=columns-] li.product,
+  .woocommerce ul.products[class*=columns-] .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+  }
+  #sidebar-primary {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .woocommerce ul.products[class*=columns-] li.product,
+  .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+  }
+  .thunk-list-grid-switcher {
+    display: none;
+  }
+  .woocommerce #shop-product-wrap .woocommerce-ordering {
+    width: 100%;
+  }
+  .page-head .breadcrumb-trail.breadcrumbs {
+    width: 100%;
+  }
+  .primary-content-area {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .cart {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .single_add_to_cart_button.button.alt {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .top-store-quantity {
+    width: 100%;
+  }
+  .single-product div.product form.cart button.minus,
+  .single-product div.product form.cart .single-product div.product form.cart button.plus,
+  .single-product div.product form.cart .single-product div.product form.cart input[type="number"] {
+    width: 100%;
+  }
+  .quantity {
+    width: 100%;
+  }
+  .plus {
+    width: 100%;
+  }
+  .yith-wcwl-add-to-wishlist.add-to-wishlist-84.exists.wishlist-fragment.on-first-load {
+    width: 100%;
+  }
+  .yith-wcwl-wishlistexistsbrowse {
+    width: 100%;
+  }
+}
+body:not(.wp-admin) {
+  background-color: #FEFEFE;
+}
+body:not(.wp-admin) .thunk-woo-product-list {
+  transition: .6s;
+}
+body:not(.wp-admin) .thunk-woo-product-list:hover {
+  box-shadow: 0px 0px 7px 7px #E4EBEA;
+}
+body:not(.wp-admin) .woocommerce-result-count {
+  display: none;
+}
+body:not(.wp-admin) .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox {
+  display: inherit;
+}
+body:not(.wp-admin) .page-head .breadcrumb-trail.breadcrumbs {
+  width: 100%;
+}

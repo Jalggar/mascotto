@@ -1,0 +1,33 @@
+.collapse:not(.show) {
+  display: block;
+}
+.below-header:before {
+  background: #06a89d;
+}
+.below-header a {
+  color: #fff;
+}
+.top-store-menu .menu-item a {
+  color: white;
+  font-weight: 900;
+  line-height: 28px;
+}
+.top-store-menu .menu-item a:hover {
+  color: #A80662;
+}
+.top-store-menu .menu-item .sub-menu {
+  background: #06a89d;
+}
+.front .disable-right-sidebar .sidebar-content-area {
+  width: 180px;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+.page-content .disable-right-sidebar .sidebar-content-area {
+  width: 180px;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+.sidebar-main {
+  width: 100%;
+}

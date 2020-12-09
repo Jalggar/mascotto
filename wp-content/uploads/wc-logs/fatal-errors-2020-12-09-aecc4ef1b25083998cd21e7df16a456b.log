@@ -1,0 +1,26 @@
+2020-12-09T09:57:56+00:00 CRITICAL Uncaught Exception: load error: failed to find /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/resources/fontawesome/less/main.less in /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php:128
+Stack trace:
+#0 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(225): lessc->compileFile('/home/jorge2/we...')
+#1 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/jorge2/we...', true)
+#2 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), true)
+#3 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('less-styles', false)
+#4 /home/jorge2/web/jorge2.imaisd.es/public_html/wp-includes/class-wp-hook.php(285): WPLessPl en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php en la línea 128
+
+2020-12-09T11:32:02+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 163
+
+2020-12-09T11:32:03+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 163
+
+2020-12-09T11:46:56+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T11:46:57+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T11:47:07+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T11:47:07+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T11:47:09+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T11:47:09+00:00 CRITICAL syntax error, unexpected end of file en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 204
+
+2020-12-09T12:02:56+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' en /home/jorge2/web/jorge2.imaisd.es/public_html/wp-content/themes/store-child/functions.php en la línea 70
+

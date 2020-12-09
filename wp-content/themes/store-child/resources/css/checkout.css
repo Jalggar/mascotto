@@ -1,0 +1,93 @@
+@media screen and (max-width: 767px){
+
+	.checkout-button.button.alt.wc-forward{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.col2-set{
+		margin-bottom: 20px;
+	}
+
+	tfoot{
+		background-color: white;
+	}
+
+	.woocommerce-shipping-totals.shipping td{
+		width: 100%;
+	}
+
+	.woocommerce-shipping-totals.shipping td ul{
+		float: right;
+		text-align: left;
+		
+	}
+	.woocommerce-shipping-destination{
+		clear: both;
+	}
+
+	.woocommerce-shipping-totals.shipping td ul li{
+		border-bottom: 1px solid  #058888;
+		padding-bottom: 15px;
+	}
+
+	.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before {
+	    content: attr(data-title) ": ";
+	    font-weight: 700;
+	    float: left;
+	    text-align: left;
+	    display: block;
+	    width: 100%;
+	}
+
+	.woocommerce-checkout-review-order{
+		padding-right: 14px;
+	}
+
+	.woocommerce-input-wrapper{
+		width: 100%;
+	}
+
+	.checkout-button.button.alt.wc-forward{
+		height: 48px;
+		line-height: 48px;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+}
+
+.open-cart .top-store-quickcart-dropdown .woocommerce-mini-cart__buttons.buttons .button{
+	background-color: #06a89d;
+	border-color: #06a89d;
+}
+
+.open-cart .top-store-quickcart-dropdown .woocommerce-mini-cart__buttons.buttons .button:hover{
+	background-color: #058888;
+}
+
+.open-cart .top-store-quickcart-dropdown .woocommerce-mini-cart__buttons.buttons .button.checkout.wc-forward{
+	margin-left: 0px;
+	
+}
+
+.checkout-button.button.alt.wc-forward{
+	float: right;
+}
+
+
+.primary-content-area.checkout-page{
+	width: 100%;
+}
+
+#order_comments{
+	width: 300px;
+	height: 90px;
+}
+
+.woocommerce #order_review table.shop_table td[data-title="Envío"] {
+	padding: 10px 10px;
+	width: 200px;
+	text-align: left;
+	float: right;
+}
+

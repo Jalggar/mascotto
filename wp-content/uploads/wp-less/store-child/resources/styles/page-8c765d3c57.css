@@ -1,0 +1,12 @@
+body {
+  /*
+	.primary-content-area{
+		width: 100%;
+	}*/
+}
+body .entry-footer {
+  display: none;
+}
+body .woocommerce-result-count {
+  display: none;
+}

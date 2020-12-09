@@ -1,0 +1,27 @@
+@media screen and( max-width: 767px){
+	button{
+		min-height: 48px;
+	}
+}
+
+	.entry-footer{
+		display: none;
+	}
+
+.woocommerce-result-count{
+	display: none;
+}
+
+.front .disable-right-sidebar .primary-content-area, .page-content .disable-right-sidebar .primary-content-area{
+	margin: auto;
+}
+/*
+.content-wrap{
+	margin: auto;
+}
+*/
+
+/*
+.primary-content-area{
+	width: 100%;
+}*/
